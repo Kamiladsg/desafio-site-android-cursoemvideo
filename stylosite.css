@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+ }
+ body{
+    font-family: 'Times New Roman', Times, serif;
+ background-color:#7ce6a1d1;
+ }
+ h1,h2 {
+    font-family: 'android','Times New Roman', Times, serif ;
+ }
+ p{
+    text-align: justify;
+    text-indent: 20px;
+ }
+ 
+ main{
+ background-color:white;
+ border-radius:auto;
+ box-shadow:5px 5px 15px #144b5598 ;
+ width: 900px;
+ padding: 10px;
+ margin: auto;
+ } 
+ 
+ .principal{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color: white;
+    background-image: linear-gradient(to left,#195935,#3DD973,#39BF68,#2A8C4C,#22733F );
+    height: auto;
+    width: 1500px;
+    padding: 5px;
+    margin: auto;
+ }  
+ .subtitulo{
+    font-family: 'android','Times New Roman', Times, serif ;
+    text-align: left;
+    color: green;
+    background-image: linear-gradient(to right,#82d9a08d, #D5F2E2,#F2F2F2 );
+    height: 20px;
+    width: 900px;
+    padding: 5px;
+    margin: auto;
+ } 
+ .destaque{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: white;
+    background-color: #2A8C4C;
+    height: 40px;
+    width: 900px;
+    padding: 5px;
+    margin: auto;
+ } 
+ .enfase{
+    color: rgb(22, 96, 22);
+ } 
+ .coluna1{
+     text-align: right;
+     display: inline-block;
+     width: 400px;
+ }
+ 
+ .coluna2{
+     text-align: left;
+     display: inline-block;
+     width: 400px;
+ }
+ 
+ div{
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 100px;
+ }
+ 
+ .curiosidade{
+     background-color:#3DD973 ;
+ }
+ .rodape{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: white;
+    background-image: linear-gradient(to left,#195935,#3DD973,#39BF68,#2A8C4C,#22733F );
+    height: 15px;
+    width: 900px;
+    padding: 2px;
+    margin: auto;
+ }    
+ 
