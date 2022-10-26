@@ -16,7 +16,25 @@
     text-align: justify;
     text-indent: 20px;
  }
- 
+
+ a{
+   color: #163825;
+   text-decoration:none ;
+}
+
+a:visited{
+   color: #178d4a;
+}
+a:hover{
+  text-decoration: underline; 
+}
+.link{
+   color: #3b9c65;
+}
+
+.link::after{
+   content: '	🔗 ';
+}
  main{
  background-color:white;
  border-radius:auto;
@@ -25,7 +43,7 @@
  padding: 10px;
  margin: auto;
  } 
- 
+
  .principal{
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
@@ -57,8 +75,9 @@
     margin: auto;
  } 
  .enfase{
-    color: rgb(22, 96, 22);
+    color: rgb(12, 70, 12);
  } 
+
  .coluna1{
      text-align: right;
      display: inline-block;
@@ -90,5 +109,5 @@
     width: 900px;
     padding: 2px;
     margin: auto;
- }    
+
  
